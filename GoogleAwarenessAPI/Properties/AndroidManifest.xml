@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="GoogleAwarenessAPI.GoogleAwarenessAPI" android:versionCode="1" android:versionName="1.0">
-  <uses-sdk android:minSdkVersion="16" />
-  <application android:label="GoogleAwarenessAPI"></application>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="GoogleAwarenessAPI.GoogleAwarenessAPI" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="21" />
+	<application android:label="Google Awareness API Demo" android:icon="@drawable/Icon">
+		<meta-data android:name="com.google.android.awareness.API_KEY" android:value="AIzaSyCxnpJSJJSzv07NNtFBQx_qpy5YxZZY-dc" />
+		<meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyCxnpJSJJSzv07NNtFBQx_qpy5YxZZY-dc" />
+		<meta-data android:name="com.google.android.nearby.messages.API_KEY" android:value="AIzaSyCxnpJSJJSzv07NNtFBQx_qpy5YxZZY-dc" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+	</application>
 </manifest>
